@@ -1,0 +1,14 @@
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops21\obj\Debug\net10.0\oops21.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops21\obj\Debug\net10.0\oops21.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops21\obj\Debug\net10.0\oops21.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops21\obj\Debug\net10.0\oops21.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops21\bin\Debug\net10.0\oops21.exe
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops21\bin\Debug\net10.0\oops21.deps.json
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops21\bin\Debug\net10.0\oops21.runtimeconfig.json
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops21\bin\Debug\net10.0\oops21.dll
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops21\bin\Debug\net10.0\oops21.pdb
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops21\obj\Debug\net10.0\oops21.dll
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops21\obj\Debug\net10.0\refint\oops21.dll
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops21\obj\Debug\net10.0\oops21.pdb
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops21\obj\Debug\net10.0\oops21.genruntimeconfig.cache
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops21\obj\Debug\net10.0\ref\oops21.dll

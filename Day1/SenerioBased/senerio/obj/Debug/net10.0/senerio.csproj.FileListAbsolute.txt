@@ -1,0 +1,14 @@
+C:\Users\ASUS\OneDrive\Desktop\.NET\SenerioBased1\senerio\bin\Debug\net10.0\senerio.exe
+C:\Users\ASUS\OneDrive\Desktop\.NET\SenerioBased1\senerio\bin\Debug\net10.0\senerio.deps.json
+C:\Users\ASUS\OneDrive\Desktop\.NET\SenerioBased1\senerio\bin\Debug\net10.0\senerio.runtimeconfig.json
+C:\Users\ASUS\OneDrive\Desktop\.NET\SenerioBased1\senerio\bin\Debug\net10.0\senerio.dll
+C:\Users\ASUS\OneDrive\Desktop\.NET\SenerioBased1\senerio\bin\Debug\net10.0\senerio.pdb
+C:\Users\ASUS\OneDrive\Desktop\.NET\SenerioBased1\senerio\obj\Debug\net10.0\senerio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Desktop\.NET\SenerioBased1\senerio\obj\Debug\net10.0\senerio.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\.NET\SenerioBased1\senerio\obj\Debug\net10.0\senerio.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Desktop\.NET\SenerioBased1\senerio\obj\Debug\net10.0\senerio.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\.NET\SenerioBased1\senerio\obj\Debug\net10.0\senerio.dll
+C:\Users\ASUS\OneDrive\Desktop\.NET\SenerioBased1\senerio\obj\Debug\net10.0\refint\senerio.dll
+C:\Users\ASUS\OneDrive\Desktop\.NET\SenerioBased1\senerio\obj\Debug\net10.0\senerio.pdb
+C:\Users\ASUS\OneDrive\Desktop\.NET\SenerioBased1\senerio\obj\Debug\net10.0\senerio.genruntimeconfig.cache
+C:\Users\ASUS\OneDrive\Desktop\.NET\SenerioBased1\senerio\obj\Debug\net10.0\ref\senerio.dll

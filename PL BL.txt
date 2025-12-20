@@ -1,0 +1,18 @@
+PL BL
+Camel Casing--always--variable,objects
+Pascal casing--class,methods,interface,events .NET uses it
+
+.NET, .NET Framework, .NET core
+CLS
+CLR(MSIL,JIT)
+managed and unmanaged code
+.NET Framework Base class library(classes and methods) and grouping is namespace
+interface - 2 types
+
+two type of variable - value type and reference type
+data type - primitive and user defined
+typecasting bcz of different memory conifg
+operator
+conditionals construct and types
+looping construct and types
+dotnet new console -n CalculatorApp

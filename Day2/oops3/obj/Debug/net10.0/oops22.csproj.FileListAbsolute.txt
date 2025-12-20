@@ -1,0 +1,14 @@
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops22\bin\Debug\net10.0\oops22.exe
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops22\bin\Debug\net10.0\oops22.deps.json
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops22\bin\Debug\net10.0\oops22.runtimeconfig.json
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops22\bin\Debug\net10.0\oops22.dll
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops22\bin\Debug\net10.0\oops22.pdb
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops22\obj\Debug\net10.0\oops22.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops22\obj\Debug\net10.0\oops22.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops22\obj\Debug\net10.0\oops22.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops22\obj\Debug\net10.0\oops22.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops22\obj\Debug\net10.0\oops22.dll
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops22\obj\Debug\net10.0\refint\oops22.dll
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops22\obj\Debug\net10.0\oops22.pdb
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops22\obj\Debug\net10.0\oops22.genruntimeconfig.cache
+C:\Users\ASUS\OneDrive\Desktop\.NET\oops\oops22\obj\Debug\net10.0\ref\oops22.dll
