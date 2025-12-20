@@ -11,5 +11,14 @@ class Program
         Console.WriteLine("\nStudent Details:");
         stu.DisplayDetails();
         stu.calculateTotalAndAverage();
+
+        //using getter and setter methods to retrieve student details
+        Students stu1 = new Students();
+        stu1.StudentNum = 101;
+        stu1.StudentName = "John Doe";
+        Console.WriteLine("\nUsing Getter and Setter Methods:");
+        Console.WriteLine("Student Number: " + stu1.StudentNum);
+        Console.WriteLine("Student Name: " + stu1.StudentName);  
+
     }
 }
