@@ -1,14 +1,20 @@
-class PayRoll
+class Program
 {
-
-    public void Swap(int sal1, int sal2)
+    static void Main()
     {
-        int temp = sal1;
-        sal1 = sal2;
-        sal2 = temp;
+        PayRoll payroll = new PayRoll();
 
-        Console.WriteLine("\nInside Swap Method:");
-        Console.WriteLine("Salary Component 1: " + sal1);
-        Console.WriteLine("Salary Component 2: " + sal2);
+        int salaryComponent1 = 5000;
+        int salaryComponent2 = 7000;
+
+        Console.WriteLine("Before Swap:");
+        Console.WriteLine("Salary Component 1: " + salaryComponent1);
+        Console.WriteLine("Salary Component 2: " + salaryComponent2);
+
+        payroll.Swap(salaryComponent1, salaryComponent2);
+
+        Console.WriteLine("\nAfter Swap (Outside Method):");
+        Console.WriteLine("Salary Component 1: " + salaryComponent1);
+        Console.WriteLine("Salary Component 2: " + salaryComponent2);
     }
 }
