@@ -20,4 +20,26 @@ after 4.8 .NET core
 
 obj ori programing - s d methdaolgy used in  app whrere cls and obj are used for develpoing applications
 all obj having same behaviour and attrivute are grouped into class
-obj has three features - state,
+obj has three features - state,behaviour, identity
+
+ddefault,para,static
+diff betw constructor and method
+in out parameter
+this 
+auto implement
+
+
+ param array  - if we dont know the number pf parameters
+
+
+
+
+
+
+
+
+
+
+
+
+
