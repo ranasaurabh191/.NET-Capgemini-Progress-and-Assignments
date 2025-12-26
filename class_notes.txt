@@ -22,24 +22,18 @@ obj ori programing - s d methdaolgy used in  app whrere cls and obj are used for
 all obj having same behaviour and attrivute are grouped into class
 obj has three features - state,behaviour, identity
 
-ddefault,para,static
+default,para,static
 diff betw constructor and method
 in out parameter
 this 
 auto implement
 
 
- param array  - if we dont know the number pf parameters
+param array  - if we dont know the number pf parameters
 
+operator overloading only where it makes logical sense
+operator overloading - compile time poly
 
-
-
-
-
-
-
-
-
-
-
-
+extension method
+anonymous cls and method - not having class keyword , no name
+delegate 
