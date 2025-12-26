@@ -36,4 +36,4 @@ operator overloading - compile time poly
 
 extension method
 anonymous cls and method - not having class keyword , no name
-delegate 
+delegate ,lambda method
