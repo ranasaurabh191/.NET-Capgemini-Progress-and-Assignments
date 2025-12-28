@@ -2,10 +2,10 @@ namespace PartialDemo
 {
     public partial class PartialEmployee
     {
-        public string _firstName="";
-        public string _lastName="";
-        public double _salary;
-        public string _gender="";
+        private string _firstName="";
+        private string _lastName="";
+        private double _salary;
+        private string _gender="";
         public string FirstName
         {
             get { return _firstName;}
