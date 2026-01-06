@@ -3,33 +3,33 @@ public class Program
 {
     public static void Main()
     {
-        // int[] arr = { 10, 60, 30, 40, 50 };
+        int[] arr = { 10, 60, 30, 40, 50 };
 
-        // Console.WriteLine($"Array index of value 30: {Array.IndexOf(arr, 30)}");
-        // Console.WriteLine($"Array value at index 2: {arr.GetValue(2)}");
-        // Console.WriteLine($"Array is fixed size: {arr.IsFixedSize}");
-        // Console.WriteLine($"Array is ReadOnly: {arr.IsReadOnly}");
-        // Console.WriteLine($"Array's Rank: {arr.Rank}");
-        // Console.WriteLine("Array before sorting:");
-        // foreach (int num in arr)
-        // {
-        //     Console.Write(num + " ");
-        // }
-        // Console.WriteLine();
-        // Console.WriteLine("Sorting array...");
-        // Array.Sort(arr);
-        // foreach (int num in arr)
-        // {
-        //     Console.Write(num + " ");
-        // }
-        // Console.WriteLine();
-        // Array.Reverse(arr);
-        // Console.WriteLine("Reversed array:");
-        // foreach (int num in arr)
-        // {
-        //     Console.Write(num + " ");
-        // }
-        // Console.WriteLine();
+        Console.WriteLine($"Array index of value 30: {Array.IndexOf(arr, 30)}");
+        Console.WriteLine($"Array value at index 2: {arr.GetValue(2)}");
+        Console.WriteLine($"Array is fixed size: {arr.IsFixedSize}");
+        Console.WriteLine($"Array is ReadOnly: {arr.IsReadOnly}");
+        Console.WriteLine($"Array's Rank: {arr.Rank}");
+        Console.WriteLine("Array before sorting:");
+        foreach (int num in arr)
+        {
+            Console.Write(num + " ");
+        }
+        Console.WriteLine();
+        Console.WriteLine("Sorting array...");
+        Array.Sort(arr);
+        foreach (int num in arr)
+        {
+            Console.Write(num + " ");
+        }
+        Console.WriteLine();
+        Array.Reverse(arr);
+        Console.WriteLine("Reversed array:");
+        foreach (int num in arr)
+        {
+            Console.Write(num + " ");
+        }
+        Console.WriteLine();
 
 
         Employee employee1 = new Employee(){ Id = 101, Name = "Gaurav"};

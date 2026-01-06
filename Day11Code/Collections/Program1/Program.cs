@@ -78,18 +78,80 @@ internal class Program
         // count = list.Count;
         // Console.WriteLine($"Count after:  {count}");
 
-        Stack stack = new Stack();
-        stack.Push('A');
-        stack.Push('B');
-        stack.Push('C');
-        stack.Push('D');
-        stack.Push('E');
+        // Stack stack = new Stack();
+        // stack.Push('A');
+        // stack.Push('B');
+        // stack.Push('C');
+        // stack.Push('D');
+        // stack.Push('E');
 
-        foreach(var item in stack)
-        {
-            Console.WriteLine(item);
-        }
-        Console.WriteLine("Element at top : "+stack.Peek());
-        
+        // foreach(var item in stack)
+        // {
+        //     Console.WriteLine(item);
+        // }
+        // Console.WriteLine("Element at top : "+stack.Peek());
+
+        // Console.WriteLine("Enter elemt to find: ");
+        // char ch = Convert.ToChar(Console.ReadLine());
+        // if (stack.Contains(ch))
+        // {
+        //     Console.WriteLine($"Element {ch} found");
+        // }
+        // else
+        // {
+        //     Console.WriteLine("Not found");
+        // }
+
+         // Create Queue
+    //     Queue queue = new Queue();
+
+    //     // Enqueue elements (FIFO)
+    //     queue.Enqueue('A');
+    //     queue.Enqueue('B');
+    //     queue.Enqueue('C');
+    //     queue.Enqueue('D');
+    //     queue.Enqueue('E');
+
+    //     Console.WriteLine("Queue elements are:");
+    //     foreach (var item in queue)
+    //     {
+    //         Console.WriteLine(item);
+    //     }
+
+    //     // Peek (front element without removing)
+    //     Console.WriteLine("\nFront element (Peek): " + queue.Peek());
+
+    //     // Dequeue (remove front element)
+    //     Console.WriteLine("Removed element (Dequeue): " + queue.Dequeue());
+
+    //     Console.WriteLine("\nQueue after Dequeue:");
+    //     foreach (var item in queue)
+    //     {
+    //         Console.WriteLine(item);
+    //     }
+
+    //     // Count
+    //     Console.WriteLine("\nTotal elements in queue: " + queue.Count);
+
+    //     // Search element
+    //     Console.Write("\nEnter element to find: ");
+    //     char ch = Convert.ToChar(Console.ReadLine()??"");
+
+    //     if (queue.Contains(ch))
+    //     {
+    //         Console.WriteLine($"Element {ch} found in queue");
+    //     }
+    //     else
+    //     {
+    //         Console.WriteLine("Element not found");
+    //     }
+
+    //     // Clear queue
+    //     queue.Clear();
+    //     Console.WriteLine("\nQueue cleared");
+    //     Console.WriteLine("Queue count after clear: " + queue.Count);
+
     }
-}
+    
+
+} 
