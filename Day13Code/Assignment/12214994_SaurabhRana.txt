@@ -1,0 +1,122 @@
+//12214994 
+//Saurabh Rana
+//SupersetId: 6876279
+
+Code::
+
+abstract class Transaction
+{
+    public int Id{get;set;}
+    public DateTime Date{get;set;}
+    public decimal Amount{get;set;}
+    public string Description{get;set;}
+
+    protected Transaction(int id,DateTime date, decimal amount,string description)
+    {
+        Id = id;
+        Date = date;
+        Amount = amount;
+        Description = description;
+    }
+    public abstract string GetSummary();
+
+}
+
+public interface IReportable
+{
+    public string GetSummary();
+}
+
+using System.Transactions;
+
+class IncomeTransaction : Transaction
+{
+    public string Source{get;set;}
+    public IncomeTransaction(int id,DateTime date, decimal amount,string description,string source) : base(id, date, amount, description)
+    {
+        Source = source;
+    }
+
+    public override string GetSummary()
+    {
+        return $"[INCOME] ₹{Amount} from {Source} on {Date.ToShortDateString()} - {Description}";
+    }
+    
+}
+
+
+using System.Transactions;
+
+class ExpenseTransaction : Transaction
+{
+    public string Category{get;set;}
+    public ExpenseTransaction(int id, DateTime date, decimal amount, string description, string category): base(id, date, amount, description)
+    {
+        Category = category;
+    }
+    public override string GetSummary()
+    {
+        return $"[EXPENSE] ₹{Amount} for {Category} on {Date.ToShortDateString()} - {Description}";
+    }
+
+}
+
+using System.Transactions;
+
+class Ledger<T> where T : Transaction
+{
+    private List<T> enteries = new List<T>();
+    public void AddEntry(T entry)
+    {
+        enteries.Add(entry);
+    }
+
+    public List<T> GetTransactionsByDate(DateTime date)
+    {
+        return enteries.Where(e => e.Date.Date == date.Date).ToList();
+    }
+    public decimal CalculateTotal()
+    {
+        return enteries.Sum(e => e.Amount);
+    }
+    public List<T> GetAll()
+    {
+        return enteries;
+    }
+}
+
+using System.Transactions;
+
+class Program
+{
+    static void Main()
+    {
+        Ledger<IncomeTransaction> incomeLedger = new Ledger<IncomeTransaction>();
+        incomeLedger.AddEntry(new IncomeTransaction(1,DateTime.Today,500,"Petty Cash","Main Cash"));
+
+        Ledger<ExpenseTransaction> expenseLedger = new Ledger<ExpenseTransaction>();
+        expenseLedger.AddEntry(new ExpenseTransaction(2,DateTime.Today,100,"Pens and Papers","Stationary"));
+
+        decimal totalIncome=incomeLedger.CalculateTotal();
+        decimal totalExpense=expenseLedger.CalculateTotal();
+
+        decimal balance = totalIncome-totalExpense;
+
+        Console.WriteLine("----- PETTY CASH SUMMARY -----");
+        Console.WriteLine($"Total Income  : ${totalIncome}");
+        Console.WriteLine($"Total Expense : ${totalExpense}");
+        Console.WriteLine($"Net Balance   : {balance}");
+
+        Console.WriteLine("\n----- REPORT -----");
+
+        List<Transaction> allTransactions = new List<Transaction>();
+        allTransactions.AddRange(incomeLedger.GetAll());
+        allTransactions.AddRange(expenseLedger.GetAll());
+
+        foreach(Transaction t in allTransactions)
+        {
+            Console.WriteLine(t.GetSummary());
+        } 
+    }
+}
+
