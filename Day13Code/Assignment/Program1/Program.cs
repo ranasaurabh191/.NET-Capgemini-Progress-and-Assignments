@@ -18,7 +18,7 @@ class Program
         Console.WriteLine("----- PETTY CASH SUMMARY -----");
         Console.WriteLine($"Total Income  : ${totalIncome}");
         Console.WriteLine($"Total Expense : ${totalExpense}");
-        Console.WriteLine($"Net Balance   : {balance}");
+        Console.WriteLine($"Net Balance   : ${balance}");
 
         Console.WriteLine("\n----- REPORT -----");
 

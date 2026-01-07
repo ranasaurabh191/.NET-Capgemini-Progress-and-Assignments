@@ -1,4 +1,3 @@
-using System.Transactions;
 
 class Ledger<T> where T : Transaction
 {

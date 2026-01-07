@@ -1,4 +1,3 @@
-using System.Transactions;
 
 class ExpenseTransaction : Transaction
 {
@@ -9,7 +8,7 @@ class ExpenseTransaction : Transaction
     }
     public override string GetSummary()
     {
-        return $"[EXPENSE] ₹{Amount} for {Category} on {Date.ToShortDateString()} - {Description}";
+        return $"[EXPENSE] ${Amount} for {Category} on {Date.ToShortDateString()} - {Description}";
     }
 
 }

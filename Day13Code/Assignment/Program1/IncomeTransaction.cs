@@ -1,4 +1,4 @@
-using System.Transactions;
+
 
 class IncomeTransaction : Transaction
 {
@@ -10,7 +10,7 @@ class IncomeTransaction : Transaction
 
     public override string GetSummary()
     {
-        return $"[INCOME] ₹{Amount} from {Source} on {Date.ToShortDateString()} - {Description}";
+        return $"[INCOME] ${Amount} from {Source} on {Date.ToShortDateString()} - {Description}";
     }
     
 }
