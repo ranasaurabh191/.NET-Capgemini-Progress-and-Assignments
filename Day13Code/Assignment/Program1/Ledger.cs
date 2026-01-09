@@ -1,22 +1,22 @@
 
-class Ledger<T> where T : Transaction
+class Ledger<T> where T : Transaction // “T must be a class that inherits from Transaction”
 {
-    private List<T> enteries = new List<T>();
+    private List<T> entries = new List<T>();
     public void AddEntry(T entry)
     {
-        enteries.Add(entry);
+        entries.Add(entry);
     }
 
     public List<T> GetTransactionsByDate(DateTime date)
     {
-        return enteries.Where(e => e.Date.Date == date.Date).ToList();
+        return entries.Where(e => e.Date.Date == date.Date).ToList();
     }
     public decimal CalculateTotal()
     {
-        return enteries.Sum(e => e.Amount);
+        return entries.Sum(e => e.Amount);
     }
     public List<T> GetAll()
     {
-        return enteries;
+        return entries;
     }
 }
